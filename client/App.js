@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import io from 'socket.io-client';
 
-import styles form './App.css';
+import styles form './App.scss';
 
 import MessageForm from './MessageForm';
 import MessageList from './MessageList';
