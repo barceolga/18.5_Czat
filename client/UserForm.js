@@ -8,21 +8,21 @@ class UserForm extends Component {
     this.state = {name: ''};
   }
 
-  handleSubmit(e) {
-    e.preventDefault();
+  handleSubmit(event) {
+    event.preventDefault();
     this.props.onUserSubmit(this.state.name);
   }
-  handleChange(e) {
-    this.setState({name: e.target.value});
+  handleChange(event) {
+    this.setState({name: event.target.value});
   }
 
   render() {
     return(
-      <form className={styles.UserForm} onSubmit={e => this.handleSubmit(e)}>
+      <form className={styles.UserForm} onSubmit={event => this.handleSubmit(event)}>
         <input
           className={styles.UserInput}
           placeholder='Write your nickname and press enter'
-          onChange={e => this.handleChange(e)}
+          onChange={event => this.handleChange(event)}
           value={this.state.name}
         />
       </form>
