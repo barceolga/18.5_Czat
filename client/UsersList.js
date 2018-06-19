@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 
 import styles from './UsersList.scss';
 
@@ -15,7 +15,7 @@ const UsersList = props => (
             {user.name}
           </li>
         );
-      });
+      })
     }
     </ul>
 </div>
