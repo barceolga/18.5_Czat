@@ -6,20 +6,20 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server);
 
-const userService = require('./UsersService');
+const UsersService = require('./UsersService');
 
 const userService = new UsersService();
 
 app.use(express.static(__dirname + '/public'));
 
 app.get('/', function(req, res) {
-  res.sendFile(__dirname + 'index.html');
+  res.sendFile(__dirname + '/index.html');
 });
 
 io.on('connection', function(socket) {
   //client is listening in order to know if someone has joined the chat
   socket.on('join', function(name){
-    //we're saving the user who has just joined the chat,into a serwis with a list of persons which are on the chat now
+    //we're saving the user who has just joined the chat, into a service with a list of persons which are on the chat now
     userService.addUser({
       id: socket.id,
       name
