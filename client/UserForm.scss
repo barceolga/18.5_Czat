@@ -4,12 +4,13 @@
     justify-content: center;
     width: 100vw;
     height: 100vh;
-    
+
     .UserInput {
+        background-color: #008080;
         padding: 20px;
         font-size: 2em;
         border: 0;
-        border-bottom: 1px solid #ccc;
-        width: 510px;
+        border-bottom: 1px solid #fff;
+        width: 75vw;
     }
 }
