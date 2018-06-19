@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import io from 'socket.io-client';
+//import {hot} from 'react-hot-loader';
 
-import styles form './App.scss';
+import styles from './App.scss';
 
 import MessageForm from './MessageForm';
 import MessageList from './MessageList';
@@ -36,12 +37,14 @@ class App extends Component {
   }
 
   handleUserSubmit(name) {
-    this.setStae({name});
+    this.setState({name});
     socket.emit('join', name);
   }
 
   render() {
-    return this.state.name !== '' ? this.renderLayout() : this.renderUserForm();
+    return this.state.name !== '' ? (
+      this.renderLayout()
+    ) : this.renderUserForm();
   }
 
   renderLayout() {
@@ -78,5 +81,5 @@ class App extends Component {
   }
 };
 
-
 export default App;
+//export default hot(module) (App);
