@@ -3,7 +3,7 @@ let webpack = require('webpack');
 let HtmlWebpackPlugin = require('html-webpack-plugin');
 let OptimizeJsPlugin = require('optimize-js-plugin');
 let UglifyJSPlugin = require('uglifyjs-webpack-plugin');
-//let env = process.env.NODE_ENV || 'development';
+let env = process.env.NODE_ENV || 'development';
 
 let plugins =
     [new HtmlWebpackPlugin({
@@ -25,11 +25,10 @@ let plugins =
     }
 
     return {
-      entry: (env !== 'production' ? [
-        'react-hot-loader/patch',
-        'webpack-dev-server/client?http://localhost:8080',
-        'webpack/hot/only-dev-server',
-    ] : []).concat(['./client/index.js']),
+      entry:  [
+      		'react-hot-loader/patch',
+      		'./client/index.js'
+      ],
       output: {
               filename: './bundle.js',
               path: path.resolve(__dirname, 'public'),
@@ -69,6 +68,14 @@ let plugins =
               }
           ]
       },
+      devServer: {
+              	proxy: {
+              		'/socket.io': {
+              			target: 'http://localhost:3000',
+              			ws: true
+              		}
+              }
+          },
       plugins: plugins
     }
   };
