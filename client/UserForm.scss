@@ -16,7 +16,16 @@
           border-bottom: 1px solid #fff;
           width: 75vw;
       }
+      ::-webkit-input-placeholder {
+        color: #ccffff;
+      }
       :-moz-placeholder {
+        color: #ccffff;
+      }
+      ::placeholder {
+        color: #ccffff;
+      }
+      ::-ms-placeholder {
         color: #ccffff;
       }
   }
