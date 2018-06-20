@@ -12,14 +12,19 @@ body {
         display: flex;
         flex-direction: row;
         align-items: center;
-        border-bottom: 1px solid navy;
+        height: 14%;
 
         .AppTitle {
             display: flex;
             width: 25vw;
-            border-right: 1px solid navy;
+            border: 5px solid #fff;
+            border-right: none;
+            background-color:#0d1a26;
+            color: #d1e0e0;
             justify-content: center;
             box-sizing: border-box;
+            font-size: 30px;
+            font-weight: 700;
             padding: 20px;
         }
         .AppRoom {
@@ -28,6 +33,11 @@ body {
             justify-content: center;
             box-sizing: border-box;
             padding: 20px;
+            border: 5px solid #fff;
+            font-size: 30px;
+            font-weight: 700;
+            background-color:#0d1a26;
+            color: #d1e0e0;
         }
     }
 
@@ -35,12 +45,14 @@ body {
         display: flex;
         flex-direction: row;
         flex: 1;
+        height: 85%;
 
         .MessageWrapper {
             display: flex;
             flex-direction: column;
             width: 75vw;
             flex: 1;
+            height: 100%;
         }
     }
 }
