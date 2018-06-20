@@ -20913,7 +20913,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, "body {\n  margin: 0; }\n\n._2sB7CB2EaWzBqxXSUZdWiz {\n  display: flex;\n  flex-direction: column;\n  flex: 1;\n  height: 100vh; }\n  ._2sB7CB2EaWzBqxXSUZdWiz ._1IL4QINjetqnt9dMy4eS4c {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    border-bottom: 1px solid navy; }\n    ._2sB7CB2EaWzBqxXSUZdWiz ._1IL4QINjetqnt9dMy4eS4c ._2jOA_zj5SM4oAv_oQC2umU {\n      display: flex;\n      width: 25vw;\n      border-right: 1px solid navy;\n      justify-content: center;\n      box-sizing: border-box;\n      padding: 20px; }\n    ._2sB7CB2EaWzBqxXSUZdWiz ._1IL4QINjetqnt9dMy4eS4c ._2J20uG0GWVbQOwH6iUSa2L {\n      display: flex;\n      width: 75vw;\n      justify-content: center;\n      box-sizing: border-box;\n      padding: 20px; }\n  ._2sB7CB2EaWzBqxXSUZdWiz .EOxrGI7Ulbo2Xg4MHyAhw {\n    display: flex;\n    flex-direction: row;\n    flex: 1; }\n    ._2sB7CB2EaWzBqxXSUZdWiz .EOxrGI7Ulbo2Xg4MHyAhw .Kq7z_ORqa-yvcftpUklkg {\n      display: flex;\n      flex-direction: column;\n      width: 75vw;\n      flex: 1; }\n", ""]);
+exports.push([module.i, "body {\n  margin: 0; }\n\n._2sB7CB2EaWzBqxXSUZdWiz {\n  display: flex;\n  flex-direction: column;\n  flex: 1;\n  height: 100vh; }\n  ._2sB7CB2EaWzBqxXSUZdWiz ._1IL4QINjetqnt9dMy4eS4c {\n    display: flex;\n    flex-direction: row;\n    align-items: center;\n    height: 14%; }\n    ._2sB7CB2EaWzBqxXSUZdWiz ._1IL4QINjetqnt9dMy4eS4c ._2jOA_zj5SM4oAv_oQC2umU {\n      display: flex;\n      width: 25vw;\n      border: 5px solid #fff;\n      border-right: none;\n      background-color: #0d1a26;\n      color: #d1e0e0;\n      justify-content: center;\n      box-sizing: border-box;\n      font-size: 30px;\n      font-weight: 700;\n      padding: 20px; }\n    ._2sB7CB2EaWzBqxXSUZdWiz ._1IL4QINjetqnt9dMy4eS4c ._2J20uG0GWVbQOwH6iUSa2L {\n      display: flex;\n      width: 75vw;\n      justify-content: center;\n      box-sizing: border-box;\n      padding: 20px;\n      border: 5px solid #fff;\n      font-size: 30px;\n      font-weight: 700;\n      background-color: #0d1a26;\n      color: #d1e0e0; }\n  ._2sB7CB2EaWzBqxXSUZdWiz .EOxrGI7Ulbo2Xg4MHyAhw {\n    display: flex;\n    flex-direction: row;\n    flex: 1;\n    height: 85%; }\n    ._2sB7CB2EaWzBqxXSUZdWiz .EOxrGI7Ulbo2Xg4MHyAhw .Kq7z_ORqa-yvcftpUklkg {\n      display: flex;\n      flex-direction: column;\n      width: 75vw;\n      flex: 1;\n      height: 100%; }\n", ""]);
 
 // exports
 exports.locals = {
@@ -21165,7 +21165,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, ".UBdyFHnuEID21bX-cY1Bu {\n  display: flex;\n  flex-direction: row; }\n  .UBdyFHnuEID21bX-cY1Bu ._1j8o2YyBSoX2N86BK629gs {\n    flex: 1;\n    padding: 20px;\n    border: 0;\n    border-top: 1px solid #ccc; }\n", ""]);
+exports.push([module.i, ".UBdyFHnuEID21bX-cY1Bu {\n  display: flex;\n  flex-direction: row;\n  height: 15%;\n  background-color: #0d1a26; }\n  .UBdyFHnuEID21bX-cY1Bu ._1j8o2YyBSoX2N86BK629gs {\n    flex: 1;\n    padding: 20px;\n    font-size: 20px;\n    font-weight: 600;\n    border: 0;\n    border-top: 5px solid #fff;\n    background-color: #0d1a26;\n    color: #e1eaea; }\n", ""]);
 
 // exports
 exports.locals = {
@@ -21287,7 +21287,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, ".KwheR4DdS9yeUjhG--9aj {\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  width: 75vw;\n  padding: 20px; }\n", ""]);
+exports.push([module.i, ".KwheR4DdS9yeUjhG--9aj {\n  flex: 1;\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-start;\n  background-color: #c6d9ec;\n  color: #000033;\n  width: 75vw;\n  padding: 20px;\n  height: 85%; }\n", ""]);
 
 // exports
 exports.locals = {
@@ -21400,7 +21400,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, "._2mxFTbZpR323b7xWh4ZbIg {\n  display: flex;\n  flex: 1;\n  width: 25vw;\n  justify-content: flex-start;\n  flex-direction: column;\n  border-right: 1px solid #ccc; }\n  ._2mxFTbZpR323b7xWh4ZbIg ._3LaiycoyZMG_hiHy3k7NBG {\n    padding: 20px;\n    text-align: center;\n    background: #ccc; }\n  ._2mxFTbZpR323b7xWh4ZbIg ._3u7-aGhn8ISCsbBIaDLk06 {\n    margin: 0;\n    padding: 0; }\n    ._2mxFTbZpR323b7xWh4ZbIg ._3u7-aGhn8ISCsbBIaDLk06 ._2lTNM3IfO1-_TqQd52gGi_ {\n      list-style: none;\n      border-bottom: 1px solid #ccc;\n      padding: 20px;\n      margin: 0 0 0 20px; }\n", ""]);
+exports.push([module.i, "._2mxFTbZpR323b7xWh4ZbIg {\n  display: flex;\n  flex: 1;\n  width: 25vw;\n  justify-content: flex-start;\n  flex-direction: column;\n  border-right: 5px solid #fff;\n  background-color: #c6d9ec;\n  height: 107%; }\n  ._2mxFTbZpR323b7xWh4ZbIg ._3LaiycoyZMG_hiHy3k7NBG {\n    padding: 20px;\n    text-align: center;\n    background: #999999;\n    color: #990099;\n    font-size: 30px;\n    font-weight: 700; }\n  ._2mxFTbZpR323b7xWh4ZbIg ._3u7-aGhn8ISCsbBIaDLk06 {\n    margin: 0;\n    padding: 0;\n    background-color: #c6d9ec; }\n    ._2mxFTbZpR323b7xWh4ZbIg ._3u7-aGhn8ISCsbBIaDLk06 ._2lTNM3IfO1-_TqQd52gGi_ {\n      list-style: none;\n      color: #330033;\n      text-align: center;\n      background-color: #538cc6;\n      font-size: 25px;\n      font-weight: 500;\n      padding: 20px;\n      margin: 5px 5px 5px 20px; }\n", ""]);
 
 // exports
 exports.locals = {
@@ -21548,7 +21548,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, "._2C4IB-eUShvFuQayhrjcvZ {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100vw;\n  height: 100vh; }\n  ._2C4IB-eUShvFuQayhrjcvZ ._1V5I5Y2djQWhytON-f-kI- {\n    background-color: #008080;\n    padding: 20px;\n    font-size: 2em;\n    border: 0;\n    color: #fff;\n    border-bottom: 1px solid #fff;\n    width: 75vw; }\n", ""]);
+exports.push([module.i, "._2C4IB-eUShvFuQayhrjcvZ {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100vw;\n  height: 100vh; }\n  ._2C4IB-eUShvFuQayhrjcvZ ._1V5I5Y2djQWhytON-f-kI- {\n    background-color: #008080;\n    padding: 20px;\n    font-size: 2em;\n    border: 0;\n    color: #ccffff;\n    border-bottom: 1px solid #fff;\n    width: 75vw; }\n  ._2C4IB-eUShvFuQayhrjcvZ :-moz-placeholder {\n    color: #ccffff; }\n", ""]);
 
 // exports
 exports.locals = {
