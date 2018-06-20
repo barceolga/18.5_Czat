@@ -1,11 +1,17 @@
 .MessageForm {
     display: flex;
     flex-direction: row;
+    height: 15%;
+    background-color:#0d1a26;
 
     .MessageInput {
         flex: 1;
         padding: 20px;
+        font-size: 20px;
+        font-weight: 600;
         border: 0;
-        border-top: 1px solid #ccc;
+        border-top: 5px solid #fff;
+        background-color:#0d1a26;
+        color: #e1eaea;
     }
 }
