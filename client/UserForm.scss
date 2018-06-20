@@ -1,17 +1,22 @@
-.UserForm {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
 
-    .UserInput {
-        background-color: #008080;
-        padding: 20px;
-        font-size: 2em;
-        border: 0;
-        color: #fff;
-        border-bottom: 1px solid #fff;
-        width: 75vw;
-    }
-}
+
+  .UserForm {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100vw;
+      height: 100vh;
+
+      .UserInput {
+          background-color: #008080;
+          padding: 20px;
+          font-size: 2em;
+          border: 0;
+          color: #ccffff;
+          border-bottom: 1px solid #fff;
+          width: 75vw;
+      }
+      :-moz-placeholder {
+        color: #ccffff;
+      }
+  }
