@@ -16,7 +16,7 @@ class App extends Component {
     super(props);
     this.state = {users: [], messages: [], text: '', name: ''};
   }
-  componentDidMOunt() {
+  componentDidMount() {
     socket.on('message', message => this.messageReceive(message));
     socket.on('update', ({users}) => this.chatUpdate(users));
   }
@@ -28,6 +28,7 @@ class App extends Component {
 
   chatUpdate(users) {
     this.setState({users});
+    console.log(this.state.users);
   }
 
   handleMessageSubmit(message) {
@@ -39,6 +40,7 @@ class App extends Component {
   handleUserSubmit(name) {
     this.setState({name});
     socket.emit('join', name);
+    console.log(name);
   }
 
   render() {
@@ -59,9 +61,7 @@ class App extends Component {
             </div>
           </div>
         <div className={styles.AppBody}>
-          <UsersList
-            users={this.state.users}
-          />
+          <UsersList users={this.state.users}/>
           <div className={styles.MessangerWrapper}>
             <MessageList
               messages={this.state.messages}
