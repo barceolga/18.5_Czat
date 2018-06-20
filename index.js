@@ -19,6 +19,7 @@ app.get('/', function(req, res) {
 io.on('connection', function(socket) {
   //client is listening in order to know if someone has joined the chat
   socket.on('join', function(name){
+    console.log(name)
     //we're saving the user who has just joined the chat, into a service with a list of persons which are on the chat now
     userService.addUser({
       id: socket.id,
@@ -52,4 +53,4 @@ io.on('connection', function(socket) {
 
 server.listen(3000, function() {
   console.log('Server is listening on *:3000');
-})
+});
