@@ -21548,7 +21548,7 @@ exports = module.exports = __webpack_require__(8)(false);
 
 
 // module
-exports.push([module.i, "._2C4IB-eUShvFuQayhrjcvZ {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100vw;\n  height: 100vh; }\n  ._2C4IB-eUShvFuQayhrjcvZ ._1V5I5Y2djQWhytON-f-kI- {\n    background-color: #008080;\n    padding: 20px;\n    font-size: 2em;\n    border: 0;\n    color: #ccffff;\n    border-bottom: 1px solid #fff;\n    width: 75vw; }\n  ._2C4IB-eUShvFuQayhrjcvZ :-moz-placeholder {\n    color: #ccffff; }\n", ""]);
+exports.push([module.i, "._2C4IB-eUShvFuQayhrjcvZ {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 100vw;\n  height: 100vh; }\n  ._2C4IB-eUShvFuQayhrjcvZ ._1V5I5Y2djQWhytON-f-kI- {\n    background-color: #008080;\n    padding: 20px;\n    font-size: 2em;\n    border: 0;\n    color: #ccffff;\n    border-bottom: 1px solid #fff;\n    width: 75vw; }\n  ._2C4IB-eUShvFuQayhrjcvZ ::-webkit-input-placeholder {\n    color: #ccffff; }\n  ._2C4IB-eUShvFuQayhrjcvZ :-moz-placeholder {\n    color: #ccffff; }\n  ._2C4IB-eUShvFuQayhrjcvZ ::placeholder {\n    color: #ccffff; }\n  ._2C4IB-eUShvFuQayhrjcvZ ::-ms-placeholder {\n    color: #ccffff; }\n", ""]);
 
 // exports
 exports.locals = {
